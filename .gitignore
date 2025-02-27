@@ -1,0 +1,60 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+.env/
+*.venv/
+
+# Ignore editor and OS-generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ignore dependency files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore logs and databases
+logs/
+*.log
+db.sqlite3
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore Django-specific files
+*.sqlite3
+*.pot
+local_settings.py
+
+# Ignore static and media files
+staticfiles/
+media/
+
+# Ignore Git submodules
+.gitmodules
+
+# Ignore Docker files
+*.dockerignore
+docker-compose.override.yml
+
+# Ignore environment variables and secrets
+.env
+config/settings/local.py
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Ignore compiled code and generated files
+*.class
+*.o
+*.out
+*.exe
